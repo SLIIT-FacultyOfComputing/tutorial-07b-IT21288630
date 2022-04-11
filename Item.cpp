@@ -7,10 +7,9 @@ Item::Item()
 {
   itemCode = 0;
   unitPrice = 0;
-  discount = 0;
 }
 // 5. Implement Overloaded Constructor Implementation
-Item::Item(int code, float price);
+Item::Item(int code, float price)
 {
   itemCode = code;
   unitPrice = price;
